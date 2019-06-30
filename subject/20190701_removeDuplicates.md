@@ -43,7 +43,7 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
-# 要求对拥有一个一千万随机数的数组，运行时间要在2s内完成
+# 要求对拥有一个一千万随机数的数组进行处理，运行时间要在2s内完成
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
