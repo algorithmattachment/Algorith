@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/testJunit.iml" filepath="$PROJECT_DIR$/testJunit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/removeDuplocates.iml" filepath="$PROJECT_DIR$/removeDuplocates.iml" />
     </modules>
   </component>
 </project>

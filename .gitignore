@@ -1,4 +1,4 @@
 ##ignore this file##
 *.iml
-/huangshijie/*/.edea/
-/huangshijie/*/out/
+/huangshijie/java/removeDuplocates/.edea/
+/huangshijie/java/removeDuplocates/out/
