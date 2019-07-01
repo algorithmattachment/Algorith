@@ -8,19 +8,7 @@ import java.util.Random;
  */
 public class Junit {
 
-    /**
-     * @return 返回相对精确的计时
-     */
-    public static long getTime() {
-        return System.nanoTime();
-    }
 
-    /**
-     * @return 返回当前虚拟机可用空间
-     */
-    public static long getMemory() {
-        return Runtime.getRuntime().freeMemory();
-    }
 
     /**
      * @param n 返回数组的大小

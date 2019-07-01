@@ -21,10 +21,10 @@ public interface TimerInterface {
 
     /**
      * 获取时间
-     * @param  i 获取的时间类型（1:秒，2:毫秒，3微秒）
+     * @param  type 获取的时间类型（1:秒，2:毫秒，3微秒）
      * @return double
      */
-    double getTime(int i);
+    double getTime(int type);
 
     /**
      * 获取时间
@@ -33,3 +33,4 @@ public interface TimerInterface {
      */
     double getTime();
 }
+

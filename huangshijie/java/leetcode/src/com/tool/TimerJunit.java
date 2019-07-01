@@ -37,18 +37,18 @@ public class TimerJunit implements TimerInterface {
     /**
      * 获取时间
      *
-     * @param  i 获取的时间类型（1:毫秒，2:微秒）
+     * @param  type 获取的时间类型（1:毫秒，2:微秒）
      * @return double
      */
     @Override
-    public double getTime(int i) {
+    public double getTime(int type) {
         if (time == 0) {
             stopTime();
         }
-        if (i != 1 && i != 2) {
-            i = 1;
+        if (type != 1 && type != 2) {
+            type = 1;
         }
-        return i==1?time/1000000.0:time/1000.0;
+        return type==1?time/1000000.0:time/1000.0;
     }
 
     /**
