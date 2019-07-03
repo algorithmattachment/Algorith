@@ -1,20 +1,18 @@
 package com.hsj;
 
-import com.tool.Junit;
-import com.tool.TimerJunit;
+import com.gettestdata.Junit;
+import com.tool.timer.Timer;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ArraysIntersectionTwoTest {
     private ArraysIntersectionTwo arraysIntersectionTwo;
-    private TimerJunit junit;
+    private Timer junit;
 
     @Before
     public void setUp() {
         arraysIntersectionTwo = new ArraysIntersectionTwo();
-        junit = new TimerJunit();
+        junit = new Timer();
     }
 
     @Test

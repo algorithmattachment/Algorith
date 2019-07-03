@@ -1,10 +1,8 @@
 package com.hsj;
 
-import com.tool.Junit;
+import com.gettestdata.Junit;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ArraysIntersectionTest {
     private ArraysIntersection arraysIntersection;

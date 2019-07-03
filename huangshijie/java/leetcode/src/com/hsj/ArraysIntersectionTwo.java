@@ -8,6 +8,12 @@ import java.util.TreeMap;
  * @date 2019/07/01
  */
 public class ArraysIntersectionTwo {
+    /**
+     * 第三天 两个数组的交集Ⅱ
+     * @param nums1
+     * @param nums2
+     * @return 求交集后的新数组 res
+     */
     public int[] intersect(int[] nums1, int[] nums2){
         TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int num:nums1){

@@ -9,7 +9,7 @@ import java.util.TreeSet;
 public class RemoveDuplocates {
 
     /**
-     * 删除数组中重复的数
+     * 第一天 删除数组中重复的数
      * @param nums 传入的数组
      * @return 删除重复数后数组的大小
      */

@@ -7,6 +7,12 @@ import java.util.TreeSet;
  * @date 2019/06/30
  */
 public class ArraysIntersection {
+    /**
+     * 第二天的题，两个数组的交集
+     * @param nums1
+     * @param nums2
+     * @return 求交集后的新数组 nums
+     */
     public int[] intersection(int[] nums1, int[] nums2) {
         TreeSet<Integer> set = new TreeSet<>();
         TreeSet<Integer> setnums = new TreeSet<>();

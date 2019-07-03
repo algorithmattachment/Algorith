@@ -1,20 +1,18 @@
 package com.hsj;
 
-import com.tool.Junit;
-import com.tool.TimerJunit;
+import com.gettestdata.Junit;
+import com.tool.timer.Timer;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class RemoveDuplocatesTest {
 
     private RemoveDuplocates removeDuplocates;
-    private TimerJunit timerJunit;
+    private Timer timerJunit;
     @Before
     public void setUp() {
         removeDuplocates = new RemoveDuplocates();
-        timerJunit = new TimerJunit();
+        timerJunit = new Timer();
     }
 
     @Test
