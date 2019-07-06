@@ -31,6 +31,8 @@
  !*.c , !/dir/subdir/     !开头表示不过滤
  *.[oa]    支持通配符：过滤repo中所有以.o或者.a为扩展名的文件
 ```
+
+========
 # 文件上传提交
 
 群文件的Git文本里，先配置好Git，然后克隆本项目，git clone git@github.com:algorithmattachment/Algorith.git;或者直接GitHub上Fork项目，右上角；<br>
