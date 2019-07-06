@@ -31,8 +31,9 @@
  !*.c , !/dir/subdir/     !开头表示不过滤
  *.[oa]    支持通配符：过滤repo中所有以.o或者.a为扩展名的文件
 ```
-#文件上传提交
-群文件的Git文本里，先配置好Git，然后克隆本项目，git clone git@github.com:algorithmattachment/Algorith.git;或者直接GitHub上Fork项目，右上角；
+文件上传提交
+==========
+群文件的Git文本里，先配置好Git，然后克隆本项目，git clone git@github.com:algorithmattachment/Algorith.git;或者直接GitHub上Fork项目，右上角；<br>
 顺便添加一个远程仓库，以便往后更新方便使用，git remote add [名字自己随便取] git@github.com:algorithmattachment/Algorith.git(和上面的SSH连接一样的)；
 Fork 项目以后，你自己仓库里会有一个和本项目相同的项目，复制SSH链接，继续添加一个远程仓库 git remote add [名字还是随便取];
 ##上述步骤完成后就可以修改创建提交自己的文件了
