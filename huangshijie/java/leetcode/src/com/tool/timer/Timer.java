@@ -17,7 +17,7 @@ public class Timer implements TimerInterface {
      */
     private long time;
 
-    /**
+    /**l
      * 枚举类型，时间单位
      */
     public enum TimeType{

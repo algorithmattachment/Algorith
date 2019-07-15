@@ -14,21 +14,21 @@ public class ArraysIntersection {
      * @return 求交集后的新数组 nums
      */
     public int[] intersection(int[] nums1, int[] nums2) {
-        TreeSet<Integer> set = new TreeSet<>();
-        TreeSet<Integer> setnums = new TreeSet<>();
+        TreeSet<Integer> arrays = new TreeSet<>();
+        TreeSet<Integer> intersection = new TreeSet<>();
         for (int num:nums1){
-            set.add(num);
+            arrays.add(num);
         }
         for (int num2:nums2){
-            if (set.contains(num2)){
-                setnums.add(num2);
+            if (arrays.contains(num2)){
+                intersection.add(num2);
             }
         }
-        int [] nums=new int[setnums.size()];
-        int i=0;
-        for (Integer setnum:setnums){
-            nums[i]=setnum;
-            i++;
+        int [] nums=new int[intersection.size()];
+        int subscript=0;
+        for (Integer num:intersection){
+            nums[subscript]=num;
+            subscript++;
         }
         return nums;
     }
